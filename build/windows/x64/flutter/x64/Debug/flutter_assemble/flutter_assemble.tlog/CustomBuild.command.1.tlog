@@ -1,0 +1,28 @@
+^C:\USERS\WINDOWS 10\DESKTOP\LEARN CODE\FLUTTER\TABLE\BUILD\WINDOWS\X64\CMAKEFILES\50547F9D77C5BCD41ADCAFD883149478\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=C:\Users\windows 10\Desktop\learn code\flutter\table" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\windows 10\Desktop\learn code\flutter\table\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\windows 10\Desktop\learn code\flutter\table" "FLUTTER_TARGET=C:\Users\windows 10\Desktop\learn code\flutter\table\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\windows 10\Desktop\learn code\flutter\table\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WINDOWS 10\DESKTOP\LEARN CODE\FLUTTER\TABLE\BUILD\WINDOWS\X64\CMAKEFILES\1BAA1C3604067B4753C1EF88BD5C28FA\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WINDOWS 10\DESKTOP\LEARN CODE\FLUTTER\TABLE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/windows 10/Desktop/learn code/flutter/table/windows" "-BC:/Users/windows 10/Desktop/learn code/flutter/table/build/windows/x64" --check-stamp-file "C:/Users/windows 10/Desktop/learn code/flutter/table/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
