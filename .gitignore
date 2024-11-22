@@ -37,19 +37,16 @@ doc/api/
 
 # Flutter build outputs
 build/
-android/app/debug/
-android/app/profile/
-android/app/release/
 
-# iOS build outputs
-ios/Flutter/
-ios/.generated/
 
-# Xcode-specific
-ios/Pods/
-ios/Podfile.lock
-ios/Runner.xcworkspace/
-*.xcuserstate
+ios/
+macos/
+web/
+windows/
+linux/
+android/
+
+
 
 # VS Code specific
 .vscode/
