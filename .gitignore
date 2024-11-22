@@ -25,3 +25,49 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+
+# Flutter & Dart
+
+# Dart dependency files
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Flutter build outputs
+build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS build outputs
+ios/Flutter/
+ios/.generated/
+
+# Xcode-specific
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+*.xcuserstate
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# Generated files
+*.iml
+*.log
+*.pyc
+*.swp
+
+# macOS-specific
+.DS_Store
+
+# Linux-specific
+*.so
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+
