@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # table
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# flutter-learing
+>>>>>>> 1c56bd801ee734c17d989a52b8df4494e073f8b4
